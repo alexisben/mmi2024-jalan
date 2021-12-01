@@ -1,7 +1,7 @@
 .nos-cours-de-theatre{
     margin: 0 60px;
 }
-h1{
+.H1-impro{
     text-align: center;
     padding: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -10,8 +10,7 @@ h1{
     color: #9F0006;
     margin: 100px 0;
     padding: 0;
-}
-h2{
+}.H2-impro{
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
     font-weight: normal;
@@ -19,7 +18,7 @@ h2{
     padding: 0 0 60px 0;
     margin: 0;
 }
-h3{
+.H3-impro{
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -32,54 +31,54 @@ h3{
     justify-content: space-between;
     align-items: flex-start;
 }
-.gauche{
+.gauche-impro-impro{
     padding: 0 140px 0 0;
 }
-.professeur {
+.professeur-impro {
     display:flex;
 }
-.photo-prof{
+.photo-prof-impro{
     border-right: #9F0006 solid 2px;
     padding-right: 20px;
 }
-.photo-clement{
+.photo-clement-impro{
     border-radius: 50%;
     width: 131px;
 }
-.text-prof{
+.text-prof-impro{
     padding: 0 0 0 40px;
     line-height: 50px;
 }
-.text-prof p:first-child{
+.text-prof-impro p:first-child{
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
 }
-.text-prof p:nth-child(2){
+.text-prof-impro p:nth-child(2){
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 28px;
 }
-.text-prof p:last-child{
+.text-prof-impro p:last-child{
     font-family: 'Spartan', sans-serif;
     font-weight: normal;
     font-size: 18px;
 }
-.paragraphe{
+.paragraphe-impro{
     padding: 60px 0px 60px 0;
 }
-.paragraphe p{
+.paragraphe-impro p{
     font-family: 'Spartan', sans-serif;
     font-size: 18px;
     font-weight: normal;
     line-height: 30px;
     margin: 25px 0;
 }
-.boutons{
+.boutons-impro{
     display: flex;
     justify-content: center;
     gap: 28px;
 }
-.bouton{
+.bouton-impro{
     color: #9F0006;
     text-decoration: none;
     border: solid 2px;
@@ -92,40 +91,40 @@ h3{
     width: 100%;
     transition-duration: 0.2s;
 }
-.bouton:hover{
+.bouton-impro:hover{
     color: white;
     background: #9F0006;
 
 }
-.droite img{
+.droite-impro img{
     width: 428px;
     margin: 0 0 60px 0;
 }
-.localisation{
+.localisation-impro{
     display: flex;
     align-items: flex-start;
     margin: 0 0 30px 0;
 }
-img.icone{
+img.icon-impro{
     width: 50px;
     align-items: flex-start;
 }
-.agenda{
+.agenda-impro{
     display: flex;
     align-items: flex-start;
     margin: 0 0 30px 0;
 }
-.text-info{
+.text-info-impro{
     padding-left: 30px;
     font-family: 'Spartan', sans-serif;
     font-size: 12px;
 
 }
-.text-info p:first-child{
+.text-info-impro p:first-child{
     font-family: 'Spartan', sans-serif;
     font-size: 18px;
     padding: 0 0 20px 0;
 }
-.text-info p:nth-child(2), .text-info p:nth-child(3){
+.text-info-impro p:nth-child(2), .text-info-impro p:nth-child(3){
     line-height: 30px;
 }
