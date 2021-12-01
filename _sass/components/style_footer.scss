@@ -7,8 +7,8 @@
     font-family: Montserrat, sans-serif;
 }
 
-.contenu-footer{
-    background-image: url('/assets/images/waveFooterSVG.svg');
+.footer{
+    background-image: url("/assets/images/waveFooter.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,7 +31,7 @@ h2{
     font-size: 30px;
     font-style: normal;
     text-transform: uppercase;
-    color: #9F0006;
+    color: $bordeaux;
     margin-bottom: 25px;
 }
 
