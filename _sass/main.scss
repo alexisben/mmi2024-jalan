@@ -3,15 +3,14 @@
 @import "abstracts/variables";
 @import "base/common";
 
-@import "components/landing-section.scss";
-@import "components/news";
+@import "components/landing-section";
 @import "components/la-compagnie-foenix";
 @import "components/tarifs";
 @import "components/header-blanc";
 @import "components/header-noir";
-<<<<<<< HEAD
-@import "components/style_footer.scss";
-=======
 @import "components/style_footer";
 @import "components/inscriptions";
->>>>>>> 66566c9c6775570809cca80f66dcf76babc892de
+@import "components/cours-improvisation";
+@import "components/cours-interpretation";
+@import "components/infos-sup";
+@import "components/planning";
