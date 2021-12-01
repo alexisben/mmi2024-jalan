@@ -1,0 +1,88 @@
+body {
+    background: url(https://media.discordapp.net/attachments/893143799080038510/912989799474950185/Image_de_fond.png?width=1131&height=664);
+    background-position: right top;
+    background-repeat:no-repeat;
+    background-size: 120%;
+
+}
+.topAccueil h1, .topAccueil h2 {
+    font-family: 'Montserrat', arial;
+    font-size: 48px;
+    color: white;
+}
+.sujet h1 {
+    border-bottom: solid white 2px;
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+}
+.topAccueil h2 {
+    font-weight: lighter;
+    font-size: 38px;
+}
+.sujet {
+    margin-top: 42px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.lpppf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-shrink: 0;
+}
+.lpppf h2 {
+    margin: 0px;
+}
+.lpppf img {
+    width: 430px;
+    max-width: 100%;
+    margin-bottom: 0px;
+    margin-left: 42px;
+}
+.icones {
+    width: 35px;
+    position: absolute;
+    right: 0;
+    margin-right: 32px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icones img {
+    transition: 0.25s; 
+    margin-top: 5px;
+    border-radius: 10%;
+    background-color: black;
+}
+.icones img:hover {
+    transition: 0.25s;
+    margin-top: 5px;
+    border-radius: 10%;
+    background-color: red;
+}
+.flèche {
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+}
+.flèche img {
+    padding: 5px;
+    transition: 1s;
+}
+.flèche img:hover {
+    background-color: red;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.red {
+    color: red;
+    border-top: solid red 1.5px;
+    border-bottom: solid red 1.5px;
+}
