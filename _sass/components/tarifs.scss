@@ -1,95 +1,93 @@
-body{
-    margin: 0;
-}
-
-p {
-    margin-block: 0;
-    font-size: 18px;
-    letter-spacing: -0.06em;
-    font-family: 'Spartan', sans-serif;
-    color : $noir;
-}
-
-
-h2{
-    color: $bordeaux;
-    font-size: 38px;   
-    font-family:'Montserrat', sans-serif;
-}
-
-h3{
-    color : $noir;
-    font-size : 28px;   
-    font-family:'Montserrat', sans-serif;
-}
-
-section{
-    display: block;
-}
-
-.align-text{
-    text-align: center;
-}
-
-table{
-    color : $noir;
-    text-align: left;
-    font-family: 'Spartan', sans-serif;
-    border-collapse: collapse;
-    width: 650px;
-    height: 250px;
-}
-
-.line{
-    border-bottom: 1px solid;
-    border-bottom-color: $fond-blanc;
-}
-
-.text-right{
-    text-align: right;
-}
-
-.tarifs_line{
-    color : $noir;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.grid-tarifs{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.tarifs_impro > img{
-    align-self: center;
-}
-
-
-
-.tarifs-top{
-    justify-content: space-between;
-
-}
-
-.tarifs-bot{
-    justify-content: space-between;
-}
-
-.flux{
-    margin: 60px;
-}
-
-.bottom{
-    margin-top: 100px;
-}
-
-.first{
-    background-image: url("../assets/images/bg-wave-grey2.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 100px;
-    padding-bottom: 70px;
+.section-tarifs{
+    p {
+        margin-block: 0;
+        font-size: 18px;
+        letter-spacing: -0.06em;
+        font-family: 'Spartan', sans-serif;
+        color : $noir;
+    }
+    
+    
+    h2{
+        color: $bordeaux;
+        font-size: 38px;   
+        font-family:'Montserrat', sans-serif;
+    }
+    
+    h3{
+        color : $noir;
+        font-size : 28px;   
+        font-family:'Montserrat', sans-serif;
+    }
+    
+    section{
+        display: block;
+    }
+    
+    .align-text{
+        text-align: center;
+    }
+    
+    table{
+        color : $noir;
+        text-align: left;
+        font-family: 'Spartan', sans-serif;
+        border-collapse: collapse;
+        width: 650px;
+        height: 250px;
+    }
+    
+    .line{
+        border-bottom: 1px solid;
+        border-bottom-color: $fond-blanc;
+    }
+    
+    .text-right{
+        text-align: right;
+    }
+    
+    .tarifs_line{
+        color : $noir;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .grid-tarifs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .tarifs_impro > img{
+        align-self: center;
+    }
+    
+    
+    
+    .tarifs-top{
+        justify-content: space-between;
+    
+    }
+    
+    .tarifs-bot{
+        justify-content: space-between;
+    }
+    
+    .flux{
+        margin: 60px;
+    }
+    
+    .bottom{
+        margin-top: 100px;
+    }
+    
+    .first{
+        background-image: url("../assets/images/bg-wave-grey2.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
 }

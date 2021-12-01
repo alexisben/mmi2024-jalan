@@ -1,67 +1,69 @@
-.LA-COMPAGNIE-FOENIX h2{
-    text-align: center;
-    text-decoration: none;
-    font-size: 38px;
-    font-style: normal;
-    font-family: Montserrat, sans-serif;
-    color: #9F0006;
-    font-weight: 400;
-    margin-bottom: 75px;
-}
-
-.LA-COMPAGNIE-FOENIX h3{
-    text-decoration: none;
-    font-size: 28px;
-    font-style: normal;
-    font-family: Montserrat, sans-serif;;
-    color: #9F0006;
-    font-weight: 600;
-}
-
-.texte-nos-valeurs h3{
-    text-align: left;
-}
-
-.texte-nos-valeurs p{
-    line-height: 154%;
-    border-left: #9F0006 solid 2px;
-    padding-left: 24px;
-    padding-right: 150px;
-    text-align: left;
-    font-style: normal;
-    font-family: Spartan, sans-serif;
-    color: #838383;
-    font-weight: 400;
-}
-
-.nos-valeurs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.l-enseignement{
-    padding-top: 60px;
-    margin-top: 60px;
-    border-top: #9F0006 solid 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.texte-l-enseignement p{
-    line-height: 154%;
-    padding-left: 24px;
-    border-left: #9F0006 solid 2px;
-    margin-left: 150px;
-    padding-right: 150px;
-    text-align: left;
-    font-style: normal;
-    font-family: Spartan, sans-serif;
-    color: #838383;
-    font-weight: 400;
-}
-
-.texte-l-enseignement h3{
-    margin-left: 150px;
+.la-compagnie-foenix{
+    .la-compagnie-foenix h2{
+        text-align: center;
+        text-decoration: none;
+        font-size: 38px;
+        font-style: normal;
+        font-family: Montserrat, sans-serif;
+        color: #9F0006;
+        font-weight: 400;
+        margin-bottom: 75px;
+    }
+    
+    .la-compagnie-foenix h3{
+        text-decoration: none;
+        font-size: 28px;
+        font-style: normal;
+        font-family: Montserrat, sans-serif;;
+        color: #9F0006;
+        font-weight: 600;
+    }
+    
+    .texte-nos-valeurs h3{
+        text-align: left;
+    }
+    
+    .texte-nos-valeurs p{
+        line-height: 154%;
+        border-left: #9F0006 solid 2px;
+        padding-left: 24px;
+        padding-right: 150px;
+        text-align: left;
+        font-style: normal;
+        font-family: Spartan, sans-serif;
+        color: #838383;
+        font-weight: 400;
+    }
+    
+    .nos-valeurs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .l-enseignement{
+        padding-top: 60px;
+        margin-top: 60px;
+        border-top: #9F0006 solid 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .texte-l-enseignement p{
+        line-height: 154%;
+        padding-left: 24px;
+        border-left: #9F0006 solid 2px;
+        margin-left: 150px;
+        padding-right: 150px;
+        text-align: left;
+        font-style: normal;
+        font-family: Spartan, sans-serif;
+        color: #838383;
+        font-weight: 400;
+    }
+    
+    .texte-l-enseignement h3{
+        margin-left: 150px;
+    }
 }

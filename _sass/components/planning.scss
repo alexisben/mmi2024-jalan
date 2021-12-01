@@ -1,130 +1,123 @@
-body{
-    margin: 0;
-    font-family: 'Spartan', sans-serif;
-}
-main {
-    background-color: #F8F8F8;
-    padding: 50px 60px;
+.section-planning{
+    h2{
+        font-size: 38px;
+        font-family: 'Montserrat', sans-serif;
+        color: #DA0606;
+    }
+    .planning{
+        display: grid;
+        grid-template-columns: 90px repeat(4, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-rows: 2fr repeat(20, 0.5fr) 2fr;
+        padding: 0px 0 10px;
+    }
+    .inlineText{
     
-}
-h2{
-    font-size: 38px;
-    font-family: 'Montserrat', sans-serif;
-    color: #DA0606;
-}
-.planning{
-    display: grid;
-    grid-template-columns: 90px repeat(4, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    grid-template-rows: 2fr repeat(20, 0.5fr) 2fr;
-    padding: 0px 0 10px;
-}
-.inlineText{
-
-    list-style-type: none;
-    margin: 0;
-    padding: 10px 0 10px 0;
-    font-family: 'Spartan', sans-serif;
-    font-size: 18s;
-    
-}
-.jours {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 15px;
-
-
-    grid-column-start: 2;
-    grid-column-end: 6;
-}
-.lieu {
-    display: grid;
-    grid-template-columns: 90px repeat(4, 1fr);
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 22;
-    font-weight: bold;
-}
-.menuts{
-    color: #DA0606;
-}
-.cantonale{
-    color: #9F0006;
-}
-.jours li, .lieu li{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#horaires{
-    
-    display: grid;
-    grid-template-rows: repeat(10fr, 2fr);
-    grid-row-gap: 15px;
-    margin: 0;
-    padding: 0;
-    grid-row-start: 2;
-    grid-row-end: 22;
-    list-style-type: none;
-}
-#horaires li{
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    
-}
-
-.interpretation{
-    background-color: pink;
-    border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0 10px 0;
+        font-family: 'Spartan', sans-serif;
+        font-size: 18s;
+        
+    }
+    .jours {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 15px;
     
     
-}
-.impro{
+        grid-column-start: 2;
+        grid-column-end: 6;
+    }
+    .lieu {
+        display: grid;
+        grid-template-columns: 90px repeat(4, 1fr);
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 22;
+        font-weight: bold;
+    }
+    .menuts{
+        color: #DA0606;
+    }
+    .cantonale{
+        color: #9F0006;
+    }
+    .jours li, .lieu li{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #horaires{
+        
+        display: grid;
+        grid-template-rows: repeat(10fr, 2fr);
+        grid-row-gap: 15px;
+        margin: 0;
+        padding: 0;
+        grid-row-start: 2;
+        grid-row-end: 22;
+        list-style-type: none;
+    }
+    #horaires li{
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+        
+    }
     
-    border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border: 2px solid #9f0006;
-}
-
-.lundi{
-    grid-column: 2;
-    grid-row: 2/11;
-}
-.mardiUn18{
-    grid-column: 3;
-    grid-row: 2/11;
-}
-.mardiUn20{
-
-    grid-column: 3;
-    grid-row: 11/20;
+    .interpretation{
+        background-color: pink;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    .impro{
+        
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid #9f0006;
+    }
     
-}
-.mardiDeux1830{
-    grid-column: 4;
-    grid-row: 4/13;
-}
-.mardiDeux2030{
-    grid-column: 4;
-    grid-row:13/22
-}
-.mercredi{
-    grid-column: 5;
-    grid-row: 4/13;
-}
-.bold{
-    font-weight: bold;
-}
-.complet{
-    color: #DA0606;
+    .lundi{
+        grid-column: 2;
+        grid-row: 2/11;
+    }
+    .mardiUn18{
+        grid-column: 3;
+        grid-row: 2/11;
+    }
+    .mardiUn20{
+    
+        grid-column: 3;
+        grid-row: 11/20;
+        
+    }
+    .mardiDeux1830{
+        grid-column: 4;
+        grid-row: 4/13;
+    }
+    .mardiDeux2030{
+        grid-column: 4;
+        grid-row:13/22
+    }
+    .mercredi{
+        grid-column: 5;
+        grid-row: 4/13;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    .complet{
+        color: #DA0606;
+    }
 }
