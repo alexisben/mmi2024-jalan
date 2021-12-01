@@ -1,0 +1,76 @@
+/*GENERAL*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.contenu-footer{
+    background-image: url('/Assets/images/waveFooterSVG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+
+.haut-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    margin: 10px;
+}
+
+h2{
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #9F0006;
+    margin-bottom: 25px;
+}
+
+.liste a{
+    text-decoration: underline;
+    color: rgb(112, 128, 144);
+}
+
+.liste a:hover{
+    color: rgb(62, 71, 78);
+}
+
+.liste a, .liste img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.liste-rubriques li {
+    line-height: 40px;
+    display: flex;
+}
+
+.liste-contact li{
+    margin-bottom: 10px;
+}
+
+
+.foenix a{
+    align-items: center;
+}
+
+.localisation{
+    width: fit-content;
+}
+
+.blabla-footer{
+    color: rgb(62, 71, 78);
+    display: flex;
+    text-align: center;
+    margin: 40px 150px;
+
+}
