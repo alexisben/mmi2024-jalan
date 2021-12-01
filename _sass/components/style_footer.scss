@@ -8,7 +8,7 @@
 }
 
 .contenu-footer{
-    background-image: url('/Assets/images/waveFooterSVG.svg');
+    background-image: url('/assets/images/waveFooterSVG.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,6 +38,8 @@ h2{
 .liste a{
     text-decoration: underline;
     color: rgb(112, 128, 144);
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .liste a:hover{
