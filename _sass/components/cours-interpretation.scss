@@ -1,0 +1,124 @@
+.nos-cours-de-theatre{
+    margin: 0 60px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: #9F0006;
+    margin: 60px 0;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color:#DA0606;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.cours-inter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.droite{
+    padding: 0 0 0 140px;
+}
+.professeur-clement {
+    display:flex;
+}
+.professeur-elsa{
+    display: flex;
+    margin: 60px 0 0 0;
+}
+.tiret{
+    border-right: #9F0006 solid 2px;
+    padding: 0;
+}
+.photo-clement{
+    max-width: 50%;
+    border-radius: 50%;
+}
+.photo-elsa{
+    max-width: 65%;
+    border-radius: 50%;
+}
+.text-prof{
+    padding: 0 0 0 40px;
+    line-height: 50px;
+}
+.text-prof p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+.text-prof p:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+.text-prof p:last-child{
+    font-family: 'Spartan', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+.paragraphe{
+    padding: 60px 0px 60px 0;
+}
+.paragraphe p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 25px 0;
+}
+.boutons{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.bouton{
+    color: #9F0006;
+    text-decoration: none;
+    border: solid 2px;
+    border-color:#9F0006 ;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}
+
+.gauche img{
+    width: 428px;
+    margin: 0 0 60px 0;
+}
+.localisation{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 30px 0;
+}
+img.icone{
+    width: 50px;
+    align-items: flex-start;
+}
+.agenda{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 30px 0;
+}
+.text-info{
+    padding-left: 30px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+
+}
+.text-info p:first-child{
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    padding: 0 0 20px 0;
+}
+.text-info p:nth-child(2), .text-info p:nth-child(3){
+    line-height: 30px;
+}
