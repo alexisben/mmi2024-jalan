@@ -16,10 +16,11 @@
         list-style-type: none;
         margin: 0;
         padding: 10px 0 10px 0;
-        font-family: 'Spartan', sans-serif;
-        font-size: 18s;
+        font-family: $p-font-family;
+        font-size: 18px;
         
     }
+
     .jours {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
