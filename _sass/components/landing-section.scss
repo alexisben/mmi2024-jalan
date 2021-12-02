@@ -4,6 +4,7 @@
     flex-direction: column;
     .background{
         background-image: url(../../assets/images/Theater.jpg);
+        filter: brightness(50%);
         background: no-repeat;
         background-size: cover;
         margin: none;
@@ -58,6 +59,9 @@
         position: relative;
         align-self: center;
         padding-bottom: 60px;
+    }
+    .fleche :hover img{
+        filter: brightness(0) invert(1);
     }
 }
 .flux{
