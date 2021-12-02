@@ -10,9 +10,9 @@
     transform: translateY(-50%);
 
     font-family: $p-font-family;
-    font-size: 40px;
+    font-size: $p-big-size;
     display: inline-block;
-    line-height: 75px;
+    line-height: 45px;
 
     a{
         color: $bordeaux;
