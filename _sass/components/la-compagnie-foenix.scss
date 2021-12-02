@@ -4,21 +4,19 @@
     h2{
         text-align: center;
         text-decoration: none;
-        font-size: 38px;
-        font-style: normal;
-        font-family: 'Montserrat', sans-serif;
-        color: #9F0006;
-        font-weight: 400;
+        font-size: $h2-size;
+        font-weight: $h2-regural;
+        font-family: $h2-font-family;
+        color:$bordeaux;
         margin-bottom: 75px;
     }
     
     h3{
         text-decoration: none;
-        font-size: 28px;
-        font-style: normal;
-        font-family: 'Montserrat', sans-serif;;
-        color: #9F0006;
-        font-weight: 600;
+        font-size: $h3-size;
+        font-family: $h3-font-family;
+        color: $bordeaux;
+        font-weight: $h3-regular;
         margin-bottom: 65px;
     }
     
@@ -28,26 +26,23 @@
     
     .texte-nos-valeurs p{
         line-height: 154%;
-        border-left: #9F0006 solid 2px;
+        border-left: $bordeaux solid 2px;
         padding-left: 24px;
         padding-right: 150px;
         text-align: left;
-        font-style: normal;
-        font-family: Spartan, sans-serif;
+        font-family: $p-font-family;
         color: #838383;
-        font-weight: 400;
+        font-weight: $p-big-regular;
     }
-    
     .nos-valeurs{
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    
     .l-enseignement{
         padding-top: 60px;
         margin-top: 60px;
-        border-top: #9F0006 solid 1px;
+        border-top: $bordeaux solid 1px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -56,13 +51,12 @@
     .texte-l-enseignement p{
         line-height: 154%;
         padding-left: 24px;
-        border-left: #9F0006 solid 2px;
+        border-left: $bordeaux solid 2px;
         margin-left: 150px;
         text-align: left;
-        font-style: normal;
-        font-family: Spartan, sans-serif;
+        font-family: $p-font-family;
         color: #838383;
-        font-weight: 400;
+        font-weight: $p-big-regular;
     }
     
     .texte-l-enseignement h3{
