@@ -1,22 +1,27 @@
 .section-landing{
+    position: relative;
     .background{
         background-image: url(../../assets/images/Theater.jpg);
         background: no-repeat;
         background-size: cover;
         margin: none;
-        position:absolute;
+        position: absolute;
         top: 0px; left: 0px;
         z-index: 0;
+        height: 100%;
+        width: 100%;
     }
     .display{
        display: flex;
-       z-index: 1;
+       justify-content: space-evenly;
+       align-items: center;
     }
     h1{
        font-family: $h1-font-family;
        font-size: $h1-size;
        font-weight: $h1-bold;
        color: $blanc;
+       margin-left: 150px;
 
     }
     h2{
@@ -24,6 +29,23 @@
        font-size: $h2-size;
        font-weight: $h2-regural;
        color: $blanc;
-
     }
+    .zindex{
+        z-index: 1;
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+    .icones{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 40px;
+        height: auto;
+    }
+    .flux{
+        margin:60px
+    }
+  
 }
