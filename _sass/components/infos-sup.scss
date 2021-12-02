@@ -1,53 +1,48 @@
-.line {
-    border: #E4E4E4 solid 1px;
-}
-
-.align-text {
-    text-align:center;
-    border: #E4E4E4 solid 1px;
-}
-
-
-body {
-    background-color:rgba(196, 196, 196, 9);
-
-    font-family: Montserrat;
-    display: flex;
-}
-
-h1 {
-    color: #9F0006;
-}
-
-.pass {
-    color: #9F0006;
-    font-size: 150%;
-}
-
-.info {
-    display: flex;
-    display: inline-block;
-    margin-right: 200px;
-    margin-left: 40px;
+.section-infos-sup{
+    .line {
+        border: #E4E4E4 solid 1px;
+    }
     
-}
-
-.text {
-    background-image: url(../img/Covid-infosupp.svg) ;
-    height: 380px;
-    width: 404px;
-    margin-top: 85px;
-    margin-left: 30px;
-    padding-left: 30px;
-    font-size: 120%;   
+    .align-text {
+        text-align:center;
+        border: #E4E4E4 solid 1px;
+    }
     
+    h1 {
+        color: #9F0006;
+    }
+    
+    .pass {
+        color: #9F0006;
+        font-size: 150%;
+    }
+    
+    .info {
+        display: flex;
+        display: inline-block;
+        margin-right: 200px;
+        margin-left: 40px;
+        
+    }
+    
+    .text {
+        background-image: url(../../assets/images/Covid-infosupp.svg) ;
+        height: 380px;
+        width: 404px;
+        margin-top: 85px;
+        margin-left: 30px;
+        padding-left: 30px;
+        font-size: 120%;   
+        
+    }
+    
+    .line {
+        border-bottom: 1px solid;
+        border-bottom-color: #e4e4e4;
+    }
+    
+    .align-text {
+        text-align:center;
+    }
 }
 
-.line {
-    border-bottom: 1px solid;
-    border-bottom-color: #e4e4e4;
-}
-
-.align-text {
-    text-align:center;
-}
