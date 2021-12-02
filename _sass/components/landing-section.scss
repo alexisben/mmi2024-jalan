@@ -58,9 +58,33 @@
         position: relative;
         align-self: center;
         padding-bottom: 60px;
+        transition: 0.5s;
     }
-    .fleche :hover img{
-        filter: brightness(0) invert(1);
+    .fleche p{
+        font-weight:$p-little-regular;
+        font-family: $p-font-family;
+        font-size: $p-little-size;
+        color: $blanc;
+        padding: 10px 0 0 2px;
+        display: flex;
+        align-self:center;
+        opacity: 0%;
+    }
+    .fleche img:hover{
+        border-radius: 50%;
+        transition: 0.5s;
+        background-color: $bordeaux;
+        opacity: 100%;
+    }
+
+    .fleche img{
+        transition: 0.5s;
+    }
+
+    .fleche:hover p{
+        font-size: $p-big-regular;
+
+        opacity: 100%;
     }
 }
 .padding{
