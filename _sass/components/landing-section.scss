@@ -1,3 +1,29 @@
 .section-landing{
-    
+    .background{
+        background-image: url(../../assets/images/Theater.jpg);
+        background: no-repeat;
+        background-size: cover;
+        margin: none;
+        position:absolute;
+        top: 0px; left: 0px;
+        z-index: 0;
+    }
+    .display{
+       display: flex;
+       z-index: 1;
+    }
+    h1{
+       font-family: $h1-font-family;
+       font-size: $h1-size;
+       font-weight: $h1-bold;
+       color: $blanc;
+
+    }
+    h2{
+       font-family: $h2-font-family;
+       font-size: $h2-size;
+       font-weight: $h2-regural;
+       color: $blanc;
+
+    }
 }

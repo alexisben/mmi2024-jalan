@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "fr-FR" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Spartan:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    {% include header-blanc.html %}
-    {{ content }}
-    {% include footer.html %}
-  </body>
+<html lang="{{ site.lang | default: " fr-FR" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  {% include header-noir.html %}
+  {{ content }}
+  {% include footer.html %}
+</body>
+
 </html>
