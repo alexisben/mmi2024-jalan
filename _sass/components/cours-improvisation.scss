@@ -1,7 +1,7 @@
 .section-cours-improvisation{
     margin: 0 60px;
 
-    .H1-impro{
+    h1{
         text-align: center;
         padding: 50px;
         font-family: 'Montserrat', sans-serif;
@@ -10,7 +10,8 @@
         color: #9F0006;
         margin: 100px 0;
         padding: 0;
-    }.H2-impro{
+    }
+    h2{
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
         font-weight: normal;
@@ -18,7 +19,7 @@
         padding: 0 0 60px 0;
         margin: 0;
     }
-    .H3-impro{
+    h3{
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
         font-weight: bold;
@@ -31,54 +32,54 @@
         justify-content: space-between;
         align-items: flex-start;
     }
-    .gauche-impro-impro{
+    .gauche{
         padding: 0 140px 0 0;
     }
-    .professeur-impro {
+    .professeur{
         display:flex;
     }
-    .photo-prof-impro{
+    .photo-prof{
         border-right: #9F0006 solid 2px;
         padding-right: 20px;
     }
-    .photo-clement-impro{
+    .photo-clement{
         border-radius: 50%;
         width: 131px;
     }
-    .text-prof-impro{
+    .text-prof{
         padding: 0 0 0 40px;
         line-height: 50px;
     }
-    .text-prof-impro p:first-child{
+    .text-prof p:first-child{
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
     }
-    .text-prof-impro p:nth-child(2){
+    .text-prof p:nth-child(2){
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 28px;
     }
-    .text-prof-impro p:last-child{
+    .text-prof p:last-child{
         font-family: 'Spartan', sans-serif;
         font-weight: normal;
         font-size: 18px;
     }
-    .paragraphe-impro{
+    .paragraphe{
         padding: 60px 0px 60px 0;
     }
-    .paragraphe-impro p{
+    .paragraphe p{
         font-family: 'Spartan', sans-serif;
         font-size: 18px;
         font-weight: normal;
         line-height: 30px;
         margin: 25px 0;
     }
-    .boutons-impro{
+    .boutons{
         display: flex;
         justify-content: center;
         gap: 28px;
     }
-    .bouton-impro{
+    .bouton{
         color: #9F0006;
         text-decoration: none;
         border: solid 2px;
@@ -91,41 +92,42 @@
         width: 100%;
         transition-duration: 0.2s;
     }
-    .bouton-impro:hover{
+    .bouton:hover{
         color: white;
         background: #9F0006;
     
     }
-    .droite-impro img{
-        width: 428px;
+    .droite img{
+        width: 468px;
         margin: 0 0 60px 0;
     }
-    .localisation-impro{
+    .localisation{
         display: flex;
         align-items: flex-start;
         margin: 0 0 30px 0;
     }
-    img.icon-impro{
+    img.icon{
         width: 50px;
         align-items: flex-start;
     }
-    .agenda-impro{
+    .agenda{
         display: flex;
         align-items: flex-start;
         margin: 0 0 30px 0;
     }
-    .text-info-impro{
+    .texte-info{
         padding-left: 30px;
         font-family: 'Spartan', sans-serif;
         font-size: 12px;
+        color: $noir;
     
     }
-    .text-info-impro p:first-child{
+    .texte-info p:first-child{
         font-family: 'Spartan', sans-serif;
         font-size: 18px;
         padding: 0 0 20px 0;
     }
-    .text-info-impro p:nth-child(2), .text-info-impro p:nth-child(3){
+    .texte-info p:nth-child(2), .texte-info p:nth-child(3){
         line-height: 30px;
     }
 }

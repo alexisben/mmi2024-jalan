@@ -1,7 +1,6 @@
 .section-cours-interpretation {
-    display: flex;
-    flex-wrap: wrap;
-    
+    // display: flex;
+    // flex-wrap: wrap;
     h2{
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
@@ -17,7 +16,7 @@
         text-align: center;
         padding: 60px 0 0 0;
     }
-    .cours-inter {
+    .cours-interpretation {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -101,6 +100,7 @@
     }
     img.icone{
         width: 50px;
+        height: auto;
         align-items: flex-start;
     }
     .agenda{
@@ -108,18 +108,18 @@
         align-items: flex-start;
         margin: 0 0 30px 0;
     }
-    .text-info{
+    .texte-info{
         padding-left: 30px;
         font-family: 'Spartan', sans-serif;
         font-size: 12px;
     
     }
-    .text-info p:first-child{
+    .texte-info p:first-child{
         font-family: 'Spartan', sans-serif;
         font-size: 18px;
         padding: 0 0 20px 0;
     }
-    .text-info p:nth-child(2), .text-info p:nth-child(3){
+    .texte-info p:nth-child(2), .texte-info p:nth-child(3){
         line-height: 30px;
     }
 }
