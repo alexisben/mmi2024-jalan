@@ -1,0 +1,27 @@
+.cadre{
+    background-color: $blanc;
+    opacity: 80%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    transform: translateY(-50%);
+
+    font-family: $p-font-family;
+    font-size: 40px;
+    display: inline-block;
+    line-height: 75px;
+
+    a{
+        color: $bordeaux;
+    }
+        a:hover{
+            color: $rouge;
+        }
+}
+
+img{
+    filter: brightness(70%);
+}
