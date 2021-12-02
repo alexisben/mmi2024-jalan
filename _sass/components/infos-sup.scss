@@ -3,18 +3,29 @@
     margin-bottom: 100px;
     margin-top: 100px;
     font-family: 'Spartan', sans-serif;
+
+    .line {
+        border-bottom: 1px solid;
+        border: #E4E4E4 solid 1px;
+        padding: 10px;
+        border-top: none;
+        border-left: none;
+    }
     
     .align-text {
         text-align:center;
         border: #E4E4E4 solid 1px;
+        border-bottom: none;
+        border-left: none;
     }
     
     h2 {
         color: #9F0006;
         font-family: $h2-font-family;
         font-size: $h2-size;
-        font-weight: $h2-regural;
         margin-bottom: 50px;
+        width: 730px;
+    
     }
     
     h3{
@@ -31,38 +42,43 @@
         display: flex;
         display: inline-block;
         margin-right: 200px;
-        margin-left: 40px;
+        line-height: 20px;
         
     }
 
     table{
         margin-top: 50px;
         margin-bottom: 50px;
+            
     }
     
     .text {
-        background-image: url(/assets/images/Covid-infosupp.svg) ;
+        background: url(/assets/images/Covid-infosupp.svg) ;
         height: 380px;
         width: 434px;
-        padding: 23px 80px 23px 23px;
+        padding: 23px 23px 23px 23px;
+        margin-top: 100px;
+        position: absolute;
+        right: 100px;    
     }
+
     .pass {
         color: #9F0006;
         font-size: 28px;
         font-weight: 500;
         margin-bottom: 30px;
         font-family: 'Montserrat', sans-serif;
+        
     }
 
     p .info-pass{
         font-weight: 500;
+        font-style: bold;
     }
 
     .info-pass{
         font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-
-       
+        font-size: 18px;      
     }
 
     .liste{
@@ -71,16 +87,6 @@
         justify-content: space-between;
         height: 180px;
         margin-top: 50px;
-    }
-
-
-    .line {
-        border-bottom: 1px solid;
-        border: #E4E4E4 solid 1px;
-    }
-
-    .align-text {
-        text-align:center;
-    }
+    } 
 
 }
