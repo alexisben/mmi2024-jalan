@@ -20,17 +20,17 @@
        padding:50px 0 200px 0;
     }
     h1{
-       font-family: $h1-font-family;
+        font-family: $h1-font-family;
+        font-weight: $h1-bold;
        font-size: $h1-size;
-       font-weight: $h1-bold;
        color: $blanc;
        margin: 100px 0 0 170px;;
 
     }
     h2{
-       font-family: $h2-font-family;
+        font-family: $h2-font-family;
+        font-weight: $h2-regural;
        font-size: $h2-size;
-       font-weight: $h2-regural;
        color: $blanc;
        padding-top: 20px;
        display: flex;
