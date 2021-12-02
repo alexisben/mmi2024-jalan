@@ -17,17 +17,13 @@
        align-items: center;
     }
     h1{
-       font-family: $h1-font-family;
-       font-size: $h1-size;
-       font-weight: $h1-bold;
+       font-weight: bold;
        color: $blanc;
        margin-left: 150px;
 
     }
     h2{
-       font-family: $h2-font-family;
-       font-size: $h2-size;
-       font-weight: $h2-regural;
+       font-weight: regular;
        color: $blanc;
     }
     .zindex{
