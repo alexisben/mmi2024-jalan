@@ -1,7 +1,7 @@
 .header-noir{
     position: fixed;
     z-index: 1;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
 
@@ -13,9 +13,10 @@
         list-style-type: none;
     }
     .header-noir-bouton{
-        // font-family:$p-font-family;
-        // font-weight:$p-big-bold;
-        // font-size:$p-big-size;
+        transition: 0.5s;
+        font-family:$p-font-family;
+        font-weight:$p-big-bold;
+        font-size:$p-big-size;
         text-decoration: none;
         color:$blanc;
         border: 1px solid;
@@ -23,6 +24,10 @@
         border-right-style:none;
         margin: 0 15px;
         padding: 15px 15px;
+    }
+    .header-noir-bouton:hover {
+        background-color: $bordeaux;
+        transition: 0.5s;
     }
     .logo-rouge{
         opacity: 0;

@@ -1,9 +1,12 @@
 .section-planning{
-    // h2{
-    //     font-size: 38px;
-    //     font-family: 'Montserrat', sans-serif;
-    //     color: #DA0606;
-    // }
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h2{
+        font-size: 38px;
+        font-family: 'Montserrat', sans-serif;
+        color: #DA0606;
+        margin-bottom: 50px;
+    }
     .planning{
         display: grid;
         grid-template-columns: 90px repeat(4, 1fr);
