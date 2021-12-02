@@ -87,6 +87,11 @@
         font-size: 18px;
         align-items: center;
         width: 100%;
+        transition-duration: 0.2s;
+    }
+    .bouton:hover{
+        color: white;
+        background: #9F0006;
     }
     
     .gauche img{
