@@ -6,13 +6,13 @@
     top: 50%;
     text-align: center;
     justify-content: center;
-    width: 70%;
     transform: translateY(-50%);
+    height: 50vh;
 
     font-family: $p-font-family;
     font-size: $p-big-size;
     display: inline-block;
-    line-height: 45px;
+    line-height: 5vh;
 
     a{
         color: $bordeaux;
@@ -20,6 +20,15 @@
         a:hover{
             color: $rouge;
         }
+    @media screen and (max-width: 400px) {
+
+        p {
+        
+        font-size: 10px;
+        
+        }
+        
+    }
 }
 
 .img-carousel{
