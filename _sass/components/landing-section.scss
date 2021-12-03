@@ -3,18 +3,13 @@
     display:flex;
     flex-direction: column;
     margin-bottom: 100px;
-    
-    .background{
-        background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
-        filter: brightness(50%);
-        position: absolute;
-        z-index: 0;
-        margin-bottom: 100px;
+    background-image: url(../../assets/images/Theater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-        @include phone{
-            left: -720px;
-        }
-    }
+
+}
     .display{
        display: flex;
        flex-direction: row-reverse;
@@ -80,6 +75,7 @@
         }
     }
     .fleche p{
+        text-decoration: none;
         font-weight:$p-little-regular;
         font-family: $p-font-family;
         font-size: $p-little-size;
@@ -105,4 +101,3 @@
 
         opacity: 100%;
     }
-}
