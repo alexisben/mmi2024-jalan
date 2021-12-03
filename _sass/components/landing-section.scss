@@ -2,6 +2,8 @@
     position: relative;
     display:flex;
     flex-direction: column;
+    margin-bottom: 100px;
+    
     .background{
          background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
         filter: brightness(50%);
