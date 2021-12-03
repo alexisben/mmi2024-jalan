@@ -1,6 +1,8 @@
 @import "base/reset";
 @import "abstracts/variables";
 @import "base/common";
+@import "abstracts/typo";
+@import "abstracts/media-queyries";
 @import "components/landing-section";
 @import "components/la-compagnie-foenix";
 @import "components/tarifs";
@@ -13,4 +15,4 @@
 @import "components/infos-sup";
 @import "components/planning";
 @import "components/evenements";
-@import "components/section-carousel.scss"
+@import "components/section-carousel";
