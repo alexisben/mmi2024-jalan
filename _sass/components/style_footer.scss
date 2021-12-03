@@ -6,20 +6,32 @@ footer{
         list-style: none;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
+          
     }
 
     .footer-all{
        background-image: url(/assets/images/waveFooterSVG.svg);
-       background-repeat: no-repeat;
-       background-size: cover;
+       background-repeat: repeat-x;
+        
+       @include phone{
+        background-image: none;
+        background-color: rgba(112, 128, 144, 0);
+           }
     }
 
+    
     .haut-footer{
         display: flex;
         justify-content: space-around;
         align-items: left;
         width: 100%;
         margin: 10px;
+
+        @include phone{
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+           }
     }
     
     h2{
@@ -31,15 +43,27 @@ footer{
         margin-bottom: 25px;
     }
     
+    .rubriques{
+        @include phone{
+            margin-bottom: 50px;
+               }
+    }
+
+    .contact{
+        @include phone{
+            margin-bottom: 50px;
+               }
+    }
+
     .liste a{
         text-decoration: underline;
         color: rgb(112, 128, 144);
-        font-size: 12px;
+        font-size: $p-little-size;
         font-weight: 300;
     }
     
     .liste a:hover{
-        color: rgb(62, 71, 78);
+        color: $bordeaux;
     }
     
     .liste a, .liste img{
@@ -62,13 +86,31 @@ footer{
     
     .localisation{
         width: fit-content;
+
+        @include phone{
+        margin-bottom: 50px;
+           }
+    }
+
+    .foenix{
+        
+        @include phone{
+            margin-bottom: 50px;
+               }
     }
     
     .mentions-legales-footer{
-        color: rgba(112, 128, 144, 0.7);
+        padding: 0px 180px;
+        font-size: $p-little-size;
+        color: $noir;
         display: flex;
         text-align: center;
-        margin: 40px 150px;
-    
+        margin: 40px 150px 0px;
+        line-height: 25px;
+
+        @include phone{
+            padding: 0;
+            margin: 20px 10px 30px 10px;
+           }
     }
 }

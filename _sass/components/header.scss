@@ -1,17 +1,24 @@
 .header-all{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color .5s ease;
+
     *::before,
     *::after{
         margin: 0;
         padding: 0;
         box-sizing: border-box;  
         margin: 0 60px;
+        
     }
 
     header{
         width: 100%;
         top: 0;
         left: 0;
-        transition: background-color .5s ease;
         z-index: 5;
     }
 
@@ -23,13 +30,15 @@
     }
 
     .nav{
-        width: 100%;
+        width: 85%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         transition: height .5s ease;
-        position: fixed;
-        z-index: 10;
+
+        @include phone {
+            display: none;
+        }
     }
 
     .nav a{
@@ -54,121 +63,60 @@
     }
 
     .nav-list{
-        list-style: none;
         display: flex;
+        list-style: none;
+        text-decoration: none;
     }
 
     .nav-link{
         margin: 0 2rem;
         position: relative;
         transition: 0.7s;
+       
     }
 
     .nav-link:hover{
         background-color: brown;
         transition: 0.5s;
     }
+    .menu{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        color: $blanc;
+        border: 1px;
+        z-index: 2;
+        opacity: 0;
+        position:absolute;
+        top: 60px;
+        right: 20px;
 
+         @include phone{
+            opacity: 100%;
+        }
+    }
 
-    /*Apply styles after scroll*/
-    .scrolling-active .nav{
+    &.scrolling-active {
         background-color: #fff;
         border-bottom: 2px solid rgba(255,255,255,.05);
         box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+        
+        .nav a{
+            color: black;
+        }
+
+        .nav img{
+            opacity: 1;
+        }
+
+        .nav a:hover{
+            color: $bordeaux;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
     }
+    /*Apply styles after scroll*/
 
-    .scrolling-active .nav a{
-        color: black;
-    }
-
-    .scrolling-active .nav img{
-        opacity: 1;
-    }
-
-    .scrolling-active .nav a:hover{
-        color: $bordeaux;
-        background-color: rgba(0, 0, 0, 0);
-    }
-
-    /*Apply styles after scroll end*/
-
-
-    /* Hero Demo Content*/
-    // .hero{
-    //     width: 100%;
-    //     height: 100vh;
-    //     background: url("mountain-large.jpg") center no-repeat;
-    //     background-size: cover;
-    //     position: relative;
-    // }
-
-    // .hero::after{
-    //     content: '';
-    //     width: inherit;
-    //     height: inherit;
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     background-color: rgba(0,0,0,.5);
-    // }
-
-    // .demo-content{
-    //     width: 100%;
-    //     height: 200vh;
-    //     background-color: #fff;
-    // }
-    /* Hero end*/
 }
 
-
-
-// .header-noir{
-//     position: fixed;
-//     z-index: 1;
-//     display: flex;
-//     justify-content: space-between;
-//     width: 100%;
-
-//     .header-noir-nav{
-//         display: flex;
-//         justify-content: space-evenly;
-//         align-items: center;
-//         width: auto;
-//         list-style-type: none;
-//     }
-//     .header-noir-bouton{
-//         transition: 0.5s;
-//         font-family:$p-font-family;
-//         font-weight:$p-big-bold;
-//         font-size:$p-big-size;
-//         text-decoration: none;
-//         color:$blanc;
-//         border: 1px solid;
-//         border-left-style : none;
-//         border-right-style:none;
-//         margin: 0 15px;
-//         padding: 15px 15px;
-//     }
-//     .header-noir-bouton:hover {
-//         background-color: $bordeaux;
-//         transition: 0.5s;
-//     }
-//     .logo-rouge{
-//         opacity: 0;
-//         width: 149px;
-//         margin-right: 60px;
-//     }
-//     // .header-white-bouton{
-//     //     font-family: 'Spartan', sans-serif;
-//     //     font-weight: bold;
-//     //     text-decoration: none;
-//     //     color:$noir;
-//     //     border: 1px solid;
-//     //     border-left-style : none;
-//     //     border-right-style:none;
-//     //     padding: 15px;
-//     // }
-// }
-// .flux{
-//     padding: 0 60px;
-// }
+    /*Apply styles after scroll end */

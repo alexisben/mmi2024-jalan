@@ -2,11 +2,14 @@
     position: relative;
     display:flex;
     flex-direction: column;
+    margin-bottom: 100px;
+    
     .background{
-         background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
+        background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
         filter: brightness(50%);
         position: absolute;
         z-index: 0;
+        margin-bottom: 100px;
 
         @include phone{
             left: -720px;
@@ -34,10 +37,8 @@
        @include phone {
            font-size: 30px;
            margin: 100px 0 ;
-           padding : 0 200px;
-           size: 100%;
-           
-       }
+           padding : 0 30px;
+        }
 
     }
     h2{
@@ -51,21 +52,32 @@
 
        @include phone{
            font-size:26px;
+           margin-right: 20px;
        }
     }
     .zindex{
         z-index: 1;
+
+        @include phone {
+            justify-content: center;
+        }
     }
     .logo{
         width: 100%;
         height: auto;
-        padding:100px 0 0 60px;
+        padding:0 60px 0 60px;
+        margin-top: 100px;
+
     }
     .fleche{
         position: relative;
         align-self: center;
         padding-bottom: 60px;
         transition: 0.5s;
+
+        @include phone{
+            display: none;
+        }
     }
     .fleche p{
         font-weight:$p-little-regular;
