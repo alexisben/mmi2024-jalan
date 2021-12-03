@@ -5,7 +5,6 @@
     margin-bottom: 100px;
     
     .background{
-        width: 100%;
         background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
         filter: brightness(50%);
         position: absolute;
@@ -38,10 +37,8 @@
        @include phone {
            font-size: 30px;
            margin: 100px 0 ;
-        //    padding : 0 200px;
-           width: 300px;
-           
-       }
+           padding : 0 30px;
+        }
 
     }
     h2{
@@ -55,15 +52,22 @@
 
        @include phone{
            font-size:26px;
+           margin-right: 20px;
        }
     }
     .zindex{
         z-index: 1;
+
+        @include phone {
+            justify-content: center;
+        }
     }
     .logo{
         width: 100%;
         height: auto;
-        padding:100px 0 0 60px;
+        padding:0 60px 0 60px;
+        margin-top: 100px;
+
     }
     .fleche{
         position: relative;
