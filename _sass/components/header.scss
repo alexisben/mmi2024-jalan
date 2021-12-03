@@ -35,6 +35,10 @@
         align-items: center;
         justify-content: space-between;
         transition: height .5s ease;
+
+        @include phone {
+            opacity: 0;
+        }
     }
 
     .nav a{
