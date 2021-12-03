@@ -11,6 +11,7 @@ footer{
 
     .footer-all{
        background-image: url(/assets/images/waveFooterSVG.svg);
+       background-repeat: repeat-x;
         
        @include phone{
         background-image: none;
@@ -57,7 +58,7 @@ footer{
     .liste a{
         text-decoration: underline;
         color: rgb(112, 128, 144);
-        font-size: 12px;
+        font-size: $p-little-size;
         font-weight: 300;
     }
     
@@ -99,10 +100,13 @@ footer{
     }
     
     .mentions-legales-footer{
-        color: rgba(112, 128, 144, 0.7);
+        padding: 0px 180px;
+        font-size: $p-little-size;
+        color: $noir;
         display: flex;
         text-align: center;
-        margin: 40px 150px;
+        margin: 40px 150px 0px;
+        line-height: 25px;
 
         @include phone{
             margin: 20px 10px 30px 10px;

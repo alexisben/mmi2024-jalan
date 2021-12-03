@@ -9,18 +9,16 @@
         border: #E4E4E4 solid 1px;
         padding: 10px;
         border-top: none;
-        border-left: none;
     }
     
     .align-text {
         text-align:center;
         border: #E4E4E4 solid 1px;
         border-bottom: none;
-        border-left: none;
     }
     
     h2 {
-        color: #9F0006;
+        color: $bordeaux;
         font-family: $h2-font-family;
         font-size: $h2-size;
         margin-bottom: 50px;
@@ -63,7 +61,7 @@
     }
 
     .pass {
-        color: #9F0006;
+        color: $bordeaux;
         font-size: 28px;
         font-weight: 500;
         margin-bottom: 30px;
