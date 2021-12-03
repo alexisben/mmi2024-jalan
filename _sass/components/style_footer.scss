@@ -10,8 +10,10 @@ footer{
     }
 
     .footer-all{
+        background-color: #c4c4c4;
        background-image: url(/assets/images/waveFooterSVG.svg);
-       background-repeat: repeat-x;
+       background-repeat: none;
+       background-size: cover;
         
        @include phone{
         background-image: none;
@@ -25,7 +27,7 @@ footer{
         justify-content: space-around;
         align-items: left;
         width: 100%;
-        margin: 10px;
+        padding: 50px 10px 10px 10px;
 
         @include phone{
             flex-wrap: wrap;
@@ -106,6 +108,7 @@ footer{
         display: flex;
         text-align: center;
         margin: 40px 150px 0px;
+        padding-bottom: 30px;
         line-height: 25px;
 
         @include phone{
