@@ -6,20 +6,31 @@ footer{
         list-style: none;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
+          
     }
 
     .footer-all{
        background-image: url(/assets/images/waveFooterSVG.svg);
-       background-repeat: no-repeat;
-       background-size: cover;
+        
+       @include phone{
+        background-image: none;
+        background-color: rgba(112, 128, 144, 0);
+           }
     }
 
+    
     .haut-footer{
         display: flex;
         justify-content: space-around;
         align-items: left;
         width: 100%;
         margin: 10px;
+
+        @include phone{
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+           }
     }
     
     h2{
@@ -31,6 +42,18 @@ footer{
         margin-bottom: 25px;
     }
     
+    .rubriques{
+        @include phone{
+            margin-bottom: 50px;
+               }
+    }
+
+    .contact{
+        @include phone{
+            margin-bottom: 50px;
+               }
+    }
+
     .liste a{
         text-decoration: underline;
         color: rgb(112, 128, 144);
@@ -62,6 +85,17 @@ footer{
     
     .localisation{
         width: fit-content;
+
+        @include phone{
+        margin-bottom: 50px;
+           }
+    }
+
+    .foenix{
+        
+        @include phone{
+            margin-bottom: 50px;
+               }
     }
     
     .mentions-legales-footer{
@@ -69,6 +103,9 @@ footer{
         display: flex;
         text-align: center;
         margin: 40px 150px;
-    
+
+        @include phone{
+            margin: 20px 10px 30px 10px;
+           }
     }
 }
