@@ -34,15 +34,21 @@
     }
     .tiret{
         border-right: #9F0006 solid 2px;
-        padding: 0;
+        width: 200px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        margin: auto 0px;   
     }
     .photo-clement{
-        max-width: 50%;
+        max-width: 65%;
         border-radius: 50%;
+        margin: auto 0;
     }
     .photo-elsa{
         max-width: 65%;
         border-radius: 50%;
+        margin: auto 0;
     }
     .text-prof{
         padding: 0 0 0 40px;
