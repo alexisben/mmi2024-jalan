@@ -5,10 +5,12 @@
     margin-bottom: 100px;
     
     .background{
-         background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
+        width: 100%;
+        background: no-repeat center/50% url(../../assets/images/Theater.jpg); 
         filter: brightness(50%);
         position: absolute;
         z-index: 0;
+        margin-bottom: 100px;
 
         @include phone{
             left: -720px;
