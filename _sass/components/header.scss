@@ -60,14 +60,15 @@
 
     .nav-list{
         display: flex;
+        list-style: none;
+        text-decoration: none;
     }
 
     .nav-link{
         margin: 0 2rem;
         position: relative;
         transition: 0.7s;
-        list-style: none;
-        text-decoration: none;
+       
     }
 
     .nav-link:hover{
