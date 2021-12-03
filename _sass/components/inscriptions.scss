@@ -65,6 +65,7 @@
     }
     
     .bouton-je-minscris, .bouton-reglement-interieur{
+        transition: 0.3s;
         background-color: rgba(255, 255, 255, 0);
         border: #9F0006 3px;
         border-style: solid;
@@ -74,6 +75,7 @@
     }
     
     .boutons a{
+        transition: 0.3s;
         font-family: 'Spartan', sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -83,10 +85,12 @@
     }
     
     .boutons :hover a{
+        transition: 0.3s;
         color: azure;
     }
     
     .boutons :hover{
+        transition: 0.3s;
         background-color: #9F0006;
     }
     
