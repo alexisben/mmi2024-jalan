@@ -13,7 +13,6 @@
 
         @include phone{
             left: -720px;
-            width: 375px;
         }
     }
     .display{
@@ -75,6 +74,10 @@
         align-self: center;
         padding-bottom: 60px;
         transition: 0.5s;
+
+        @include phone{
+            display: none;
+        }
     }
     .fleche p{
         font-weight:$p-little-regular;
