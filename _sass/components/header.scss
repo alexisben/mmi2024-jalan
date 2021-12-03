@@ -37,7 +37,7 @@
         transition: height .5s ease;
 
         @include phone {
-            opacity: 0;
+            display: none;
         }
     }
 
@@ -90,6 +90,7 @@
         position:absolute;
         top: 60px;
         right: 20px;
+
          @include phone{
             opacity: 100%;
         }
