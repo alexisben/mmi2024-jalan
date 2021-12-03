@@ -7,7 +7,7 @@
     text-align: center;
     justify-content: center;
     transform: translateY(-50%);
-    height: 50vh;
+    padding: 5px;
 
     font-family: $p-font-family;
     font-size: $p-big-size;
@@ -20,11 +20,21 @@
         a:hover{
             color: $rouge;
         }
-    @media screen and (max-width: 400px) {
+
+    @media screen and (max-width: 380px) {
 
         p {
         
         font-size: 10px;
+        
+        }
+        
+    }
+    @media screen and (max-width: 600px) {
+
+        p {
+        
+        font-size: 15px;
         
         }
         

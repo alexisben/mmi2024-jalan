@@ -24,6 +24,17 @@
         text-align: left;
     }
     
+    .nos-valeurs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        @media screen and (max-width: 380px) {
+            display: block; 
+        }
+        
+    } 
+
     .texte-nos-valeurs p{
         line-height: 154%;
         border-left: $bordeaux solid 2px;
@@ -33,12 +44,13 @@
         font-family: $p-font-family;
         color: #838383;
         font-weight: $p-big-regular;
+
+        @media screen and (max-width: 380px) {
+            padding-right: 0px; 
+        }
+ 
     }
-    .nos-valeurs{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+
     .l-enseignement{
         padding-top: 60px;
         margin-top: 60px;
@@ -46,6 +58,10 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        @media screen and (max-width: 380px) {
+            display: block;
+        }
     }
     
     .texte-l-enseignement p{
@@ -57,9 +73,26 @@
         font-family: $p-font-family;
         color: #838383;
         font-weight: $p-big-regular;
+
+        @media screen and (max-width: 380px) {
+            padding-right: 0px; 
+            margin-left: 0px;
+        }
     }
     
     .texte-l-enseignement h3{
         margin-left: 150px;
+        @media screen and (max-width: 380px) {
+            padding-top: 20px;
+            margin-left: 0px;
+        }
     }
+
+    @media screen and  (max-width: 400px){
+        .images-compagnie{
+            height: 190px;
+            margin-top: 20px;
+        }
+    }
+        
 }
