@@ -1,0 +1,64 @@
+<header class="header-noir flux">
+    <div class="container">
+        <nav class="nav">
+            <img src="/assets/images/logo-le-petit-plateau.-rouge.png" alt="le logo le petit plateau" class="logo">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">ACCUEIL</a>
+                </li>
+                <li>
+                    <a href="page404.html" class="nav-link">COMPAGNIE</a>
+                </li>
+                <li>
+                    <a href="page-cours.html" class="nav-link">COURS</a>
+                </li>
+                <li>
+                    <a href="page404.html" class="nav-link">STAGES</a>
+                </li>
+                <li>
+                    <a href="page404.html" class="nav-link">SPECTACLES</a>
+                </li>
+                <li>
+                    <a href="page404.html" class="nav-link">RECRUTEMENT</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero"></section>
+<section class="demo-content"></section>
+
+<script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+</script>
+
+
+
+<!-- <header class="header-noir flux">
+    <img src="../assets/images/logo-le-petit-plateau.-rouge.png" alt="le logo le petit plateau" class="logo-rouge">
+    <ul class="header-noir-nav">
+        <li>
+            <a href="index.html" class="header-noir-bouton">ACCUEIL</a>
+        </li>
+        <li>
+            <a href="compagnie.html" class="header-noir-bouton">COMPAGNIE</a>
+        </li>
+        <li>
+            <a href="page-cours.html" class="header-noir-bouton">COURS</a>
+        </li>
+        <li>
+            <a href="stages.html" class="header-noir-bouton">STAGES</a>
+        </li>
+        <li>
+            <a href="spectacles/html" class="header-noir-bouton">SPECTACLES</a>
+        </li>
+        <li>
+            <a href="recrutement/html" class="header-noir-bouton">RECRUTEMENT</a>
+        </li>
+    </ul>
+</header> -->

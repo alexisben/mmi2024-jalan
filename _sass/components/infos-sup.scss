@@ -41,10 +41,9 @@
     }
     
     .text {
-        background-image: url(/assets/images/Covid-infosupp.svg) ;
+        background: url(/assets/images/Covid-infosupp.svg) no-repeat ;
         height: 380px;
-        width: 434px;
-        padding: 23px 80px 23px 23px;
+        padding: 23px 140px 23px 23px;
     }
     .pass {
         color: #9F0006;
@@ -52,6 +51,7 @@
         font-weight: 500;
         margin-bottom: 30px;
         font-family: 'Montserrat', sans-serif;
+        width: fit-content;
     }
 
     p .info-pass{
@@ -61,6 +61,7 @@
     .info-pass{
         font-family: 'Montserrat', sans-serif;
         font-size: 18px;
+        width: fit-content;
 
        
     }
