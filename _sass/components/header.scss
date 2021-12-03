@@ -31,6 +31,11 @@
         position: fixed;
         z-index: 10;
         top: 0;
+
+        @include phone {
+            opacity: 0;
+        }
+        }
     }
 
     .nav a{
@@ -55,21 +60,37 @@
     }
 
     .nav-list{
-        list-style: none;
         display: flex;
+        list-style: none;
+        text-decoration: none;
     }
 
     .nav-link{
         margin: 0 2rem;
         position: relative;
         transition: 0.7s;
+       
     }
 
     .nav-link:hover{
         background-color: brown;
         transition: 0.5s;
     }
-
+    .menu{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        color: $blanc;
+        border: 1px;
+        z-index: 2;
+        opacity: 0;
+        position:absolute;
+        top: 60px;
+        right: -250px;
+         @include phone{
+            opacity: 100%;
+        }
+    }
 
     /*Apply styles after scroll*/
     .scrolling-active .nav{
@@ -119,7 +140,7 @@
     //     background-color: #fff;
     // }
     /* Hero end*/
-}
+
 
 
 
