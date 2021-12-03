@@ -9,7 +9,7 @@
         font-weight: 400;
         font-style: normal;
         text-transform: uppercase;
-        color: #9F0006;
+        color: $bordeaux;
         margin-bottom: 40px;
     }
     
@@ -41,7 +41,7 @@
     }
     
     .bloc-texte-1, .bloc-texte-2{
-        border: #9F0006 3px;
+        border: $bordeaux 3px;
         border-style: solid;
         border-radius: 15px;
         padding: 25px;
@@ -58,6 +58,7 @@
     
     .boutons{
         display: flex;
+        text-align: center;
         flex-direction: column;
         justify-content: space-around;
         margin: 20px 50px 10px 50px;
@@ -67,19 +68,20 @@
     .bouton-je-minscris, .bouton-reglement-interieur{
         transition: 0.3s;
         background-color: rgba(255, 255, 255, 0);
-        border: #9F0006 3px;
+        border: $bordeaux 3px;
         border-style: solid;
         border-radius: 5px;
         margin: 10px;
-        padding: 10px;
+        padding: 17px;       
     }
     
     .boutons a{
+        text-decoration: none;
         transition: 0.3s;
         font-family: 'Spartan', sans-serif;
         font-size: 18px;
         font-weight: bold;
-        color: #9F0006;
+        color: $bordeaux;
         text-transform: uppercase;
         align-self: center;
     }
@@ -91,7 +93,7 @@
     
     .boutons :hover{
         transition: 0.3s;
-        background-color: #9F0006;
+        background-color: $bordeaux;
     }
     
     // .boutons :hover img{
@@ -101,7 +103,7 @@
     .contact-bloc-texte-2{
         font-family: 'Spartan', sans-serif;
         font-size: 18px;
-        color: #9F0006;
+        color: $bordeaux;
         margin: 10px;
         bottom: 0px;
         display: flex;
@@ -112,4 +114,6 @@
     .bouton_contact{
         padding-top: 70px;
     }
+
+
 }
